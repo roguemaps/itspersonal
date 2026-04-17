@@ -9,7 +9,6 @@ const nextConfig: NextConfig = {
     unoptimized: true, // Disable default image optimization
   },
   assetPrefix: isProd ? '/roguemaps/' : '',
-  basePath: isProd ? '/roguemaps' : '',
   output: 'export'
 };
 
