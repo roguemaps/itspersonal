@@ -8,9 +8,10 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/roguemaps/' : '',
-  basePath: isProd ? '/roguemaps' : '',
-  output: 'export'
+  assetPrefix: isProd ? '/itspersonal/' : '',
+  basePath: isProd ? '/itspersonal' : '',
+  output: 'export',
+  trailingSlash: true
 };
 
 export default nextConfig;
