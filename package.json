@@ -7,7 +7,7 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pre-deploy": "bun run build && touch out/.nojekyll",
+    "pre-deploy": "bun run build && touch out/.nojekyll && echo '<html><head><meta http-equiv=\"refresh\" content=\"0; url=index.html\" /></head></html>' > out/index.html",
     "deploy": "gh-pages -d out --nojekyll",
     "lint": "eslint"
   },
