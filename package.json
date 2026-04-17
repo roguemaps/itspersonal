@@ -2,12 +2,12 @@
   "name": "itspersonal",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://https://roguemaps.github.io/itspersonal",
+  "homepage": "https://roguemaps.github.io/itspersonal",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "pre-deploy": "bun run build",
+    "pre-deploy": "bun run build && touch out/.nojekyll",
     "deploy": "gh-pages -d out",
     "lint": "eslint"
   },
