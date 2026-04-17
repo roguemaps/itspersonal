@@ -8,8 +8,8 @@ const nextConfig: NextConfig = {
   images: {
     unoptimized: true, // Disable default image optimization
   },
-  assetPrefix: isProd ? '/itspersonal/' : '',
-  basePath: isProd ? '/itspersonal' : '',
+  assetPrefix: isProd ? '/roguemaps/' : '',
+  basePath: isProd ? '/roguemaps' : '',
   output: 'export'
 };
 
