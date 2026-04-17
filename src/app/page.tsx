@@ -1,19 +1,14 @@
 "use client";
-import Image from "next/image";
-import { useRouter } from "next/navigation";
+import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 
-import { Button } from "@/components/ui/button";
-import { Card, CardContent, CardHeader } from "@/components/ui/card";
+import { Card, CardContent, CardHeader } from '@/components/ui/card';
 import {
-  Carousel,
-  CarouselContent,
-  CarouselItem,
-  CarouselNext,
-  CarouselPrevious,
-} from "@/components/ui/carousel";
-import ResumeButton from "@/components/ui/resumeButton";
+    Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious
+} from '@/components/ui/carousel';
+import ResumeButton from '@/components/ui/resumeButton';
 
-import profilePic from "../../public/my_face_1.jpeg";
+import profilePic from '../../public/my_face_1.jpeg';
 
 export default function Home() {
   const router = useRouter();
