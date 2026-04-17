@@ -3,8 +3,8 @@ self.__BUILD_MANIFEST = {
     "afterFiles": [],
     "beforeFiles": [
       {
-        "source": "/itspersonal//_next/:path+",
-        "destination": "/itspersonal/_next/:path+"
+        "source": "/roguemaps//_next/:path+",
+        "destination": "/roguemaps/_next/:path+"
       }
     ],
     "fallback": []
