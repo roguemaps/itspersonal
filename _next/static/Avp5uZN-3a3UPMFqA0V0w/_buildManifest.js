@@ -4,7 +4,7 @@ self.__BUILD_MANIFEST = {
     "beforeFiles": [
       {
         "source": "/roguemaps//_next/:path+",
-        "destination": "/_next/:path+"
+        "destination": "/roguemaps/_next/:path+"
       }
     ],
     "fallback": []
