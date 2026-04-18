@@ -27,7 +27,7 @@ export default function Home() {
         </div>
         <div className="animate-slide-in-3 w-full mt-8 flex items-center justify-center flex-col">
           <p className="text-2xl text-left">
-            I&#39;m a Senior Software Engineer with 9 years of experience in
+            Hi I&#39;m Jesse Vanderwerf. I&#39;m a Senior Software Engineer with 11 years of experience in
             building scalable web and mobile applications. I&#39;ve worked at
             companies of all sizes, from startups to large enterprises, and have
             a proven track record of delivering high-quality software.
